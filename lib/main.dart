@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple,
         accentColor: Colors.deepOrange,
+        fontFamily: 'Lato',
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: ProductsOverviewScreen(),
